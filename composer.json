@@ -1,0 +1,23 @@
+{
+    "name": "chance-fyi/swow-debug",
+    "description": "swow debug",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chance\\SwowDebug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chance",
+            "email": "chance.fyi@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "swow/swow": "dev-develop",
+        "sabre/xml": "dev-master"
+    }
+}
