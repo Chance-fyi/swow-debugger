@@ -4,7 +4,7 @@
  * Date 2023/3/28 16:50
  */
 
-namespace Chance\SwowDebug;
+namespace Chance\SwowDebugger;
 
 use Swow\Coroutine;
 

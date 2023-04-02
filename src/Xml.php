@@ -4,7 +4,7 @@
  * Date 2023/3/28 14:13
  */
 
-namespace Chance\SwowDebug;
+namespace Chance\SwowDebugger;
 
 use Sabre\Xml\Writer;
 
