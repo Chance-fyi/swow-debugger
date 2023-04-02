@@ -1,6 +1,6 @@
 {
     "name": "chance-fyi/swow-debugger",
-    "description": "swow debug",
+    "description": "swow Debugger implemented with DBGP protocol",
     "type": "library",
     "license": "MIT",
     "autoload": {
