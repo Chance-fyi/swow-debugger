@@ -10,6 +10,7 @@ use Swow\Buffer;
 use Swow\Coroutine;
 use Swow\Socket;
 use Swow\Stream\VarStream;
+use Swow\Utils\Handler;
 use function Swow\Debug\registerExtendedStatementHandler;
 
 class Debugger
@@ -24,6 +25,7 @@ class Debugger
     protected bool $daemon = false;
     protected bool $singleStep = false;
     protected array $unexecutedCommands = [];
+    protected ?Handler $breakPointHandler = null;
 
     final protected static function getInstance(): static
     {
